@@ -1,0 +1,27 @@
+{
+  "name": "git-diff-to-blog-post",
+  "version": "1.0.0",
+  "description": "Convert git diffs into blog posts",
+  "main": "index.js",
+  "engines": {
+    "node": "14.17.3",
+    "npm": "6.14.13"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzrscg/git-diff-to-blog-post.git"
+  },
+  "author": "LZRS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lzrscg/git-diff-to-blog-post/issues"
+  },
+  "homepage": "https://github.com/lzrscg/git-diff-to-blog-post#readme",
+  "dependencies": {
+    "nodegit": "^0.27.0"
+  }
+}
