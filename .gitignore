@@ -1,3 +1,11 @@
+# For repo storage
+tmp
+
+# Output
+dist
+
+# ======= GitHub Generated =======
+
 # Logs
 logs
 *.log
