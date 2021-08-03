@@ -8,8 +8,9 @@
     "npm": "6.14.13"
   },
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,20 @@
   },
   "homepage": "https://github.com/lzrscg/git-diff-to-blog-post#readme",
   "dependencies": {
+    "@octokit/graphql": "^4.6.4",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "cross-fetch": "^3.1.4",
     "nodegit": "^0.27.0"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "1.21.8",
+    "@graphql-codegen/typescript": "1.23.0",
+    "@graphql-codegen/typescript-document-nodes": "1.17.16",
+    "@graphql-codegen/typescript-operations": "^1.18.4",
+    "@graphql-codegen/typescript-resolvers": "1.20.0",
+    "@octokit/graphql-schema": "^10.57.0",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
   }
